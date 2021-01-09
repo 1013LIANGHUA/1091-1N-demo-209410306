@@ -1,0 +1,30 @@
+@charset "UTF-8";
+小標題 {
+  padding: 10px;
+  list-style: none;
+  line-height: 2px;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-family: #EA0000;
+}
+
+.大標題 {
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-family: #0004ea;
+  list-style: none;
+}
+
+.a {
+  font-size: 16px;
+  font-style: #6C6C6C;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.f {
+  font-weight: red;
+}
+/*# sourceMappingURL=read.css.map */

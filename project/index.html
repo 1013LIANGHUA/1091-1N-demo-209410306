@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--=======格式化: alt+shift+f=======-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--?-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/scss/styles.css">
+     <!-- ===== 需更改 ===== -->
+    <title>期末作業</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://www.instagram.com/1013_0_0/" class="header__logo">陳亮華</a>
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+      
+        <nav class="nav" id="nav-menu">
+            <!--
+            <div class="nav__video">
+                <a href="https://www.youtube.com/embed/RtURNnbvxgk?list=TLPQMzAxMjIwMjD7rzPNduI0LA">高中英文歌唱比賽</a>
+            </div>
+            -->
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <!--profile要放跟nav同一個div-->
+                    <div class="nav__content bd-grid">
+                        <a href="" class="nav__perfil">
+                            <!--profile img-->
+                            <div class="nav__img">
+                                <img src="./assets/img/1013.jpg" alt="">
+                            </div>
+                            <!--profile name-->
+                            <div>
+                                <span class="nav__name">陳亮華</span>
+                            </div>
+                        </a>
+                    <!--這邊要給div的結尾，與影片為不同div(影片不應該在nav中)-->
+                    </div>
+
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+
+                    <!--About(dropdown)-->
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">About <i class='bx bx-chevron-down dropdown__icon'></i>
+                        </a>
+                        <!--inside-list-->
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="./profile/profile.html" class="nav__link">About me</a>
+                            </li>
+                            <li class="dropdown__item"><a href="./109課表/109.html" class="nav__link">school timetable</a>
+                            </li>
+                            <li class="dropdown__item"><a href="./plan/plan.html" class="nav__link">Studies</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--Learning journey-->
+                    <li class="nav__item"><a href="./期末報告/read plan.html" class="nav__link">Learning journey</a>
+                        
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropdown__link">other<i class='bx bx-chevron-down dropdown__icon'></i>
+                        </a>
+
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="./陳亮華的履歷/陳亮華履歷.html" class="nav__link">resume</a></li>
+                            <li class="dropdown__item"><a href="./1091-1N-demo-209410306-main/index.html" class="nav__link">class demo</a></li>
+                            <li class="dropdown__item"><a href="#" class="nav__link">Starter</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item"><a href="./figma/figma.html" class="nav__link">figma</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--不該放在header中-->
+        <!-- <img src="./img/英歌比賽_210103.jpg"> -->
+    </header>
+
+    <!--main-->
+    <main>
+
+
+        <!-- class="c"?-->
+        <div class="container">
+            <!--title-->
+            <div class="title-container">
+                <h2 class="title">高二英文歌唱比賽</h2>
+                <!-- <h3 class="content">高二英文歌唱比賽</h3> -->
+                <!--video1-->
+                <iframe class="b" width="400" height="500"
+                src="https://www.youtube.com/embed/RtURNnbvxgk?list=TLPQMzAxMjIwMjD7rzPNduI0LA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            </div>
+
+            <div class="title-container">
+                <h2 class="title">高一英文歌唱比賽</h2>
+                <!--video2-->
+                <iframe class="b" width="400" height="500"
+                src="https://www.youtube.com/embed/7WVR50gYBq4" frameborder="0" >
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>    
+            </div>
+            <div class="title-container">
+                <h2 class="title">珍重再見</h2>
+                <!--video3-->
+                <iframe class="b" width="400" height="500"
+                src="https://www.youtube.com/embed/ii0cEFTHk-I" frameborder="0" >
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!--img-->
+        
+            <div class="t-container">
+                <h2>圖片</h2>
+                <h3 class="content stlye-margin">英文歌唱比賽</h3>
+            </div>
+    
+
+    
+        <div class="container">
+            <img class="img-size" src="./img/英歌比賽_210103.JPG" alt="">
+            <img class="img-size" src="./img/團照_210108_0.jpg" alt="">
+            <img class="img-size" src="./img/211F886A-EFE8-4BC0-8D30-A6F966B38245.jpg" alt="">
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <!-- <div class="c">
+        <iframe class="b" width="400" height="500"
+            src="https://www.youtube.com/embed/RtURNnbvxgk?list=TLPQMzAxMjIwMjD7rzPNduI0LA" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="d">
+        <iframe class="e" width="400" height="500" src="https://youtu.be/7WVR50gYBq4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div> -->
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
